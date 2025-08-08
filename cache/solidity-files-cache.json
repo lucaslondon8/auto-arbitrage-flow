@@ -6,13 +6,13 @@
       "contentHash": "f7f05f57a0f740d565586ab708fabb45",
       "sourceName": "contracts/FlashArbitrageur.sol",
       "solcConfig": {
-        "version": "0.8.28",
+        "version": "0.8.20",
         "settings": {
-          "evmVersion": "paris",
           "optimizer": {
-            "enabled": false,
-            "runs": 200
+            "enabled": true,
+            "runs": 800
           },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [

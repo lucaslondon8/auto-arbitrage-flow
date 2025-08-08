@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "compile:contracts": "hardhat compile",
-    "deploy:polygon": "hardhat run scripts/deploy.ts --network polygon"
+    "deploy:polygon": "hardhat run scripts/deploy.cjs --network polygon"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
